@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM Todo add</title>
+</head>
+<body>
+    <div class="container">
+        <div class="add-todo">
+            <input type="text" name="add-todo" id="add-todo" placeholder="Add Todo"/>
+            <input type="button" value="Submit" onclick="addTodo()" />
+        </div>
+        <div class="show-todo">
+            <div>
+                <p id="show-todo"></p>
+            </div>
+            <div>
+                <p id="btn-edit-delete"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

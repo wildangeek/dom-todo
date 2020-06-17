@@ -1,0 +1,28 @@
+body {
+    margin: 5% auto;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 20%;
+    margin: auto;
+}
+
+.container .add-todo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.container .show-todo {
+    width: 94%;
+    border: 1px solid black;
+    padding: 3%;
+}
+
+.container .show-todo p {
+    padding: 1%;
+    margin: 0;
+}
